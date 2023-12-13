@@ -1,0 +1,55 @@
+.App {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.contenedor-pokemon {
+    margin: 10px;
+    transform: scale(1);
+    transition-duration: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+  }
+.contenedor-pokemon:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+  }
+
+.imagen-pokemon {
+    width: 205.17px;
+    border-radius: 44px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 14px #cecece, inset -5px -5px 14px #f2f2f2;
+  }
+
+.info-pokemon {
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 0 20px;
+  }
+
+.info-pokemon .id-pokemon {
+    color: #5f5f5f;
+    font-size: 12px;
+    margin-bottom: 13px;
+  }
+.info-pokemon .nombre-pokemon {
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+
+.tipos-pokemon div {
+    width: 80px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 5px 5px 5px 0;
+    font-size: 12px;
+    background-color: #b4b0b0;
+  }
+
+.tipos-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
